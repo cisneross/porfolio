@@ -1,0 +1,52 @@
+.title{
+    margin-left: 15px;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.box{
+    margin-top: -25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 400px;
+    width: 100%;
+    margin-bottom: -150px;
+}
+  /* nav  */
+  .nav-link {
+    color:rgb(105, 105, 105);
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: black;
+}
+.n{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 480px) {
+    .nav-link {
+        color:rgb(105, 105, 105);
+        font-size: 13px;
+        margin-top: 9px;
+    }
+    .name{
+        color: white;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    .mid{
+        color: white;
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .bottom{
+        color: white;
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: 35px;
+    }
+
+  }

@@ -1,0 +1,75 @@
+/* html { 
+    background: url(assets/imgs/palm.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+.bluebox{
+    background-image:url('/assets/imgs/palm.jpg');
+    background-position:50% 50%;
+    background-size:cover;
+    background-color: rgba(143, 143, 143, 0.5); 
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 135px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.name{
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.mid{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600
+}
+.bottom{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-link {
+    color:rgb(105, 105, 105);
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: black;
+}
+.n{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 480px) {
+    .nav-link {
+        color:rgb(105, 105, 105);
+        font-size: 15px;
+    }
+    .name{
+        color: white;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    .mid{
+        color: white;
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .bottom{
+        color: white;
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: 35px;
+    }
+
+  }
+
